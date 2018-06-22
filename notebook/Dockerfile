@@ -148,7 +148,7 @@ RUN apt-get clean && rm -rf /var/lib/apt/lists/*
 RUN conda clean -tipsy
 
 RUN mkdir /gcs && chown -R $NB_USER /gcs
-RUN mkdir /opt/
+RUN mkdir /opt/app
 
 
 # Add NB_USER to sudo
